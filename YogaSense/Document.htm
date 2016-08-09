@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)file:///Users/kellylinehan/Documents/YogaSense/yogasense.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" href="./Document_files/yogasense.css">
+
+    
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="mainheader">
+        <h1>Yoga Sense</h1>
+    </header>
+
+<main>
+<!-- <a name="top"></a>
+    <nav>
+        <div class="topnav transition show">
+        <ul class="nav">
+            <li><a href="index.html"><img class="smalllogo" src="img/fauxlogo.png" alt="logo"></a></li>
+            <li><img class="header" src="img/COname.png" alt="fauxname"></li>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#newsletter">Newsletters</a></li>
+            <li><a href="fauxshop.html">Shop</a></li>
+            <li><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></li>
+        </ul>
+        </div>
+    </nav> -->
+    
+<section id="title" class="slide">
+    <header>
+    <div id="left">
+        <h2>About</h2>
+        <p>"Yoga sense" is a responsive electronic yoga mat that detects where your weight is being placed and visually shows you how much pressure/force that is being used In your hands and feet. Giving the user feedback on how to correct certain poses.</p>
+        </div>
+        <div id="right">
+        <h2>Why</h2>
+        <p>As a yoga instructor, I see firsthand the common mistakes in one’s practice. This is a yoga instructors biggest challenge. Not only are you trying to guide your class verbally, but you are also attempting to give verbal and physical corrections, to ensure that no one gets hurt! When you think about it, all plans grow from their roots. For humans, it is our feet. If you feet are not rooted properly, a yoga pose will not grow properly. Weight distribution in a yoga pose is essential. With the simple adjustment of your weight, many other corrections can fall in line like a domino effect. So for my project I wanted to create a yoga mat that does just that, detects how where your weight is being distributed on the mat. To ensure, that students can grow their practice from the ground up.</p>
+        </div>
+    </header>
+</section>
+
+<section id="slide1" class="slide">
+    <header>
+
+        <div id="left" class="center">
+        <p>After coming up with the concept, I needed to think about I could plant this idea. Being completely new to Arduino and physical computing. This was by far the most exciting yet nerve racking time of the entire project. After some research and some valuable suggestions and guidance. I set out to start the production of a mini mat, to ensure this idea could continue to grow on a larger scale. I implemented the Arduino and a force resistive sensor. My first goal was to detect if the weight on either side of the mat can communicate to the user if the weight is off balance. </p>
+        </div>
+        <div id="right" class="center"><p>So my next steps were to see how to make this on a larger scale. However, even though the force restive sensor was smaller than a penny. To buy the sensor on a larger scale would be putting my budget into the hundreds. That is when I came across some DIY posts on how to make a force sensor, with simple materials like conductive foam, copper, and wire.This gave my project to opportunity, to have a life size yoga mat that can detect where your weight is.
+        There were multiple tutorials, online. So before I implemented the 6ft×2ft conductive foam, I tested out different tutorials to make sure everything would work. After testing which sensor I would use, I made another mini mock up (6in x 2 in) with the conductive foam and the Arduino.
+        </p>
+        </div>
+    </header>
+</section>
+
+<section id="slide2" class="slide">
+    <header>
+        
+    </header>
+</section>
+
+<section id="slide3" class="slide">
+    <header>
+<div id="left">
+     <h2>RoadBlock #1</h2>
+                
+        <p> After that had worked out, I was ready to create the original 6ftx2ft matt.
+However, when I began to transition the project to a larger scale, I ran out of copper tape. Which is essential for detecting the values of pressure/force. I did get some values, but they were below five which was minuscule. Because of this, the life-size version was not successful. However, that does not mean it is not possible.</p>
+
+        </div>
+        <div id="right">
+        <h2>Next Steps</h2>
+                    <p>For my next steps, I planned to add more material to get larger force values, so the communication from yoga to yoga mat can be successful.
+                   
+                   During class time, and after a failed attempt to produce a life-size mat. I went back to the drawing board. I thought of a different way to implement the same idea just in a more efficient way.
+                    Instead of using just two 3ftx2ft pieces of conductive foam. I decided to divide this into columns which would end up being 32 sensors, each 1in x 2in, of conductive foam. My reasoning for the new approach is that it would be a working with a smaller area for their would be more force values. Also, I imaged making the mat into a grid could present some new exciting ideas into the mat. For example, implementing Processing into my project would create an even more interactive and engaging product. Processing would be able to draw the values being recording by the sensors. So the user can visually see the amount force and pressure are being used on the mat. Not only in the front and the back of the mat, but exactly in your hands and feet.
+                    </p></div>
+    </header>
+</section>
+
+<section id="slide4" class="slide">
+    <header>
+
+
+    </header>
+</section>
+
+<section id="slide5" class="slide">
+    <header>
+<!--     <div id="left"> -->
+           <h2>After some feedback</h2>
+                    <p>I realised that making 32 homemade sensors, in the time limit I had would be a biting off a little more more than I could chew. One, of my classmates, suggested that instead of going full mat scale. I should make a proof of product. To make the sensors I cut six (1ftx2in) pieces of conductive foam. Then I carefully had to fishtail the conductive wire through the foam to get an accurate read. This proved to be difficult, considering the conductive foam is probably 1/4 of an inch think. I continuously poked holes in both side, which I came to discover resulted in varied pressure reads.
+
+                     After the pieces were constructed it was time to give it energy. I got one sensor built, hooked up, working and drawing a sketch on Processing that would change colors based on how much pressure/force that was used on the sensor.  I got the entire left side was working. This was one of those moments I thought was to could to be true. And...... It was. After I implement the fifth, I noticed that there was something very wrong with the values outputting to pins A3-A5. These values would be erratic, jumpy, and seemed to feed off each other. Additionally, even when nothing was plugged into those three pins it would still get bizarre reads. Ranging from 0-255 in a millasecond</p>
+                  <!--   </div> -->
+                    
+    </header>
+</section>
+<section id="slide6" class="slide">
+    <header>
+               
+    </header>
+</section>
+
+<section id="slide7" class="slide">
+    <header>
+  <!--   <div id="right"> -->
+                    <h2>Debugging</h2>
+                     <p>Being new to wiring I could not figure out why only the last three pins were not working. So I did some <b>debugging. I tested every sensor with a <b> multimeter <b> to make sure it was getting identical, if not very close values of pressure/force. I then took it a step further and switched pins A0-A2 with A3-A5. After this, I knew It was not the sensors, which had caused me some trouble in the beginning, but it was either the electrical wiring, breadboard the Arduino or the code.
+                    </b></b></b></p><b><b><b>
+                    <!-- <h1> and the process of elimation begins</h1> -->
+                    <p> This took days,  I tried endless tutorials, three different Arduino boards, posted in multiple forums and even attempted to use an Arduino Lilly Pas. It seemed like it was a <b>dead end<b>. After all of the potential roadblocks were crossed off the list, it pointed breadboard or the wiring or the hardware to be the root of the problem. I constructed five different breadboards with various setups to see if one would work.
+                    after I got the the third bread board, I found one that worked!</b></b></p><b><b> 
+                    <!-- </div>  -->
+    </b></b></b></b></b></header><b><b><b>
+</b></b></b></section><b><b><b>
+
+<section id="slide8" class="slide">
+    <header>
+
+    </header>
+</section>
+<section id="slide9" class="slide">
+    <header>
+<h2>Yoga Sense</h2>
+                    <p>On April 27th, 2016, Yoga Sense was showcased at the annual Atlas Expo, at The University Of Colorado</p>
+                    <p></p>
+
+                    <p> It was a proud and fulfilling day as a student. To be able to look at a finished product, that so many times I thought would never work and wanted to abandon</p>
+
+                    <p>My favorite memory of the night was a girl snap chatting a video of her using the product saying, "I'm sending my friends videos of all the cool things here." Not only was the crowd interaction a thrill, but I found the most satisfaction and excitement in the participants suggestions on how Yoga Sense technology could be used for other things: like for skiing, lifting weights or running.  Having people interact with Yoga Sense, and being genuinely intrigued about what it was or how it work, was such an accomplished feeling. There were countless hours I spent staring at my project with an empty gaze, thinking that the only thing my plan resembled was kindergarten classroom in the-the aftermath of arts and crafts day. However, the entire process of creating Yoga Sense, was 'in a sense', the entire point of what I set out to accomplish. I created a product that gives users the ability to help their asanas from the ground up. Yoga Sense is fertile soil, where one can plant their roots and grow their practice. 
+    </p></header>
+</section>
+
+<section id="slide10" class="slide">
+    <header>
+    
+    </header>
+</section>
+<section id="slide11" class="slide">
+    <header>
+              <div id="line">
+        <h2>Materials</h2>
+        <ul>
+            <li>Conductive Foam</li>
+            <li>CopperWire</li>
+        </ul>
+        </div>
+        <div id="line">
+        <h2>HardWare</h2>
+        <ul>
+            <li>BreadBoard</li>
+            <li>Ardunio</li>
+        </ul>
+        </div>
+        <div id="line">
+        <h2>SoftWare</h2>
+        <ul>
+            <li>Processing</li>
+            <li>Ardunio</li>
+        </ul>
+        </div>
+    
+    </header>
+</section>
+
+
+
+
+
+</b></b></b></main><b><b><b>
+
+
+
+
+
+
+
+</b></b></b></body></html>
